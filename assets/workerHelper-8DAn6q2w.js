@@ -1,0 +1,1 @@
+import{gf as e,fA as t}from"./index-CelzkFt5.js";function n(f,u){return u.push(f.buffer),{buffer:f.buffer,layout:new e(f.layout)}}function o(f){return new t(f.layout).createView(f.buffer)}export{o as t,n as u};
