@@ -19,7 +19,8 @@ export async function dateUpdate() {
   ];
 
   const query = dateTable.createQuery();
-  query.where = "project = 'SC'" + " AND " + "category = 'Station Structures'";
+  query.where =
+    "project = 'SC'" + " AND " + "category = 'S05 Station Structure'";
 
   return dateTable.queryFeatures(query).then((response: any) => {
     const stats = response.features;
