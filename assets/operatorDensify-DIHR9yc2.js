@@ -1,0 +1,1 @@
+import{Ht as s}from"./index-7iLEEVs_.js";import{ah as c}from"./ProjectionTransformation-BMfT7aJS.js";const o=new c;function i(t,n,r,e){return o.execute(t,n,r,e,null)}function m(t,n,r,e){const u=o.executeMany(new s(t),n,r,e,null);return Array.from(u)}function p(){return o.supportsCurves()}export{m as o,i as t,p as u};
