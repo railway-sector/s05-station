@@ -4,7 +4,7 @@ import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
 //    Definition Expression using queryExpression          //
 //---------------------------------------------------------//
 interface queryDefinitionExpressionType {
-  queryExpression?: string;
+  queryExpression?: any;
   featureLayer?:
     | [FeatureLayer, FeatureLayer?, FeatureLayer?, FeatureLayer?, FeatureLayer?]
     | any;
