@@ -252,8 +252,8 @@ export async function defineActions(event: any) {
   item.title === "Mass (Not Monitored)" ||
   item.title === "Specialty Equipment (Not Monitored)" ||
   item.title === "NSCR_Ex.NSCREXUSER.ExteriorShell_SC_Station_Structure_S05" ||
+  item.title === "Overview" ||
   item.title === "Exterior Shell"
-    ? // item.title === "Walls (not monitoring)"
-      (item.visible = false)
+    ? (item.visible = false)
     : (item.visible = true);
 }
