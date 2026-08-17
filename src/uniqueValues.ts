@@ -29,8 +29,8 @@ export const portalItems = (id: any) => {
 export const stations_q = [
   { value: 23, name: "San Pedro" },
   { value: 24, name: "Pacita" },
-  { value: 25, name: "Binan" },
-  { value: 26, name: "Santa Rosa" },
+  { value: 25, name: "Biñan" },
+  { value: 26, name: "Sta. Rosa" },
 ];
 
 //----------------------------------------------//
